@@ -10,7 +10,9 @@ const Header: FC<HeaderProps> = ({}) => {
   return (
     <Container>
       <RouteLink href="/">홈</RouteLink>
-      <RouteLink href="/loading-test">로딩 테스트</RouteLink>
+      <RouteLink href="/loadingjs">전체 로딩</RouteLink>
+      <RouteLink href="/suspense">일부 로딩</RouteLink>
+      <RouteLink href="/about">About</RouteLink>
     </Container>
   );
 };
