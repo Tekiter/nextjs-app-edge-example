@@ -1,3 +1,5 @@
+import "server-only";
+
 import { sleep } from "./sleep";
 
 interface Article {

@@ -8,6 +8,8 @@ interface ArticleProps {
   };
 }
 
+export const runtime = "edge";
+
 const page: FC<ArticleProps> = async ({ params: { url } }) => {
   const article = await getArticle(url);
 

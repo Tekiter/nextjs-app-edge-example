@@ -5,6 +5,8 @@ import { FC, Suspense } from "react";
 
 interface ArticleListPageProps {}
 
+export const runtime = "edge";
+
 const ArticleListPage: FC<ArticleListPageProps> = ({}) => {
   return (
     <ArticleListLayout
