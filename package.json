@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:cloudflare-pages": "next-on-pages",
     "start": "next start",
     "lint": "next lint"
   },
@@ -17,12 +18,12 @@
     "next": "13.4.7",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "server-only": "^0.0.1",
     "styled-components": "^6.0.1",
     "typescript": "5.1.6"
   },
   "devDependencies": {
     "@cloudflare/next-on-pages": "^1.2.0",
-    "server-only": "^0.0.1",
     "vercel": "^31.0.1"
   }
 }
